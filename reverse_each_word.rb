@@ -6,5 +6,5 @@ def reverse_each_word(string)
     words.split(" ").reverse.join(" ")
   end
   return string
-  binding.pry
 end
+  binding.pry
