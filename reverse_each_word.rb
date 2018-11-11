@@ -1,7 +1,11 @@
+rev
+
 def reverse_each_word(string)
   string = "Hello there, and how are you?"
   string.each do |words|
-    string.split(" ").reverse.join(" ")
+    words.split(" ").reverse.join(" ")
+  end
+  retrun string
     return string
   end
 end
